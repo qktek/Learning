@@ -1,0 +1,30 @@
+ReadMe
+
+Tóm tắt
+Hàm khai báo: Hàm khai báo cho phép định nghĩa hàm trước hoặc sau khi nó được gọi, là cách truyền thống để tạo hàm.
+
+Ví dụ:
+function tinhTong(a, b) {
+  return a + b;
+}
+console.log(tinhTong(5, 3)); // 8
+Hàm biểu thức: Định nghĩa hàm thông qua việc gán hàm cho một biến, chỉ có thể được gọi sau khi được định nghĩa.
+
+Ví dụ:
+const tinhHieu = function(a, b) {
+  return a - b;
+};
+console.log(tinhHieu(5, 3)); // 2
+Hàm mũi tên: Cú pháp ngắn gọn của hàm biểu thức được giới thiệu trong ES6, hữu ích cho hàm vô danh và callback.
+
+Ví dụ:
+const tinhTich = (a, b) => {
+  return a * b;
+};
+console.log(tinhTich(5, 3)); // 15
+
+Copy
+Hoặc:
+const tinhTich = (a, b) => a * b;
+console.log(tinhTich(5, 3)); // 15
+Khi nào sử dụng?: Hàm khai báo cho hoisting và rõ ràng; Hàm biểu thức cho hạn chế hoisting và sử dụng hàm như giá trị; Hàm mũi tên cho cú pháp ngắn gọn và làm việc với this trong ngữ cảnh nhất định.

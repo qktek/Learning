@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Javascript</title>
+</head>
+<body>
+    <h1>Hello Javascript test by 'HTML'</h1>    
+    <!-- <script src="./main.js"></script> -->
+    <script>
+        // a = 25;
+        // b = 10;
+
+        // if(a == b){
+        //        console.log('Điều kiện đúng'); 
+        //  } else{
+        //         console.log('Điều kiện sai');
+        //     }
+
+        // a = 'DI tech';
+        // b = 'DI tech';
+
+        // if(a == b){
+        //        console.log('Điều kiện đúng'); 
+        //  } else{
+        //         console.log('Điều kiện sai');
+        //     }
+
+
+        // var a = 1;
+        // var b = -1;
+        // var c = 0;
+        // var d = 0;
+        // var e = a <= b;
+        // var f = c == d;
+        // var g = a >=c;
+        // console.log(e,f,g)
+
+            // var age = 16;
+            // var isBuy = 18;
+            // var canBuyAlcohol = age >= isBuy;
+            // console.log(canBuyAlcohol)
+
+        // var number = 13;
+        // var remain = number % 2;
+        // var isOdd = remain == 1;
+        // console.log(isOdd);
+
+// Number
+        // var a = 1
+        // var b = 2
+        // var c = 1.5
+        // console.log(typeof a)
+
+// String
+            // var d = 'DI Tech'
+            // console.log(typeof d)
+
+// Boolean
+            // var isSussces = true;
+            // console.log(typeof isSussces)            
+
+// Undefined
+            // var age;
+            // console.log(typeof age)
+
+// Null
+            // var isNull = null
+            // console.log(typeof isNull)
+            
+// Symbol
+            // var id = Symbol('id');
+            // console.log(typeof id)
+            
+// Function
+        //     var myFunction =  function(){
+        //           alert('Hi, xin chào các bạn..!')  
+        //     };            
+        //    console.log(typeof myFunction)
+
+           // myFunction()
+
+// Object
+            // var myObject = {
+            //     name: 'Dinh',
+            //     age:    39,
+            //     add: 'TDM',
+            //     sex: 'felmale'
+            //     // myFunction(){
+
+            //     // }
+            // };
+            // console.log(typeof myObject)
+
+            ////
+
+            // var myArray = [
+            //     'JavaScript',
+            //     'PyThon',
+            //     'PHP'
+            // ];
+            // console.log(typeof myArray)
+//Example
+            // var a = '1';
+            // var b = 2;
+            // var c = typeof a;
+            // var d = typeof b;
+            // var e = typeof d;
+            // console.log(typeof c,d,e)
+            // kết quả của typeof luôn trả về 1 chuổi
+
+
+// Toán tử phần 2
+                // var a = -2;
+                // var b = 2;
+                // console.log(a !== b)
+
+   //             function showMessage(message){
+  //                  console.log(message)
+ //               }
+
+//                showMessage('Hi anh em F8');
+
+
+                
+ function milliseconds(x) {
+  if (isNaN(x)) {
+    return 'Not a Number!';
+  }
+  return x * 1000;
+}
+
+console.log(milliseconds('100F'));
+// Expected output: "Not a Number!"
+
+console.log(milliseconds('0.0314E+2'));
+// Expected output: 3140
+             
+
+
+function allnumeric()
+   {
+      var numbers = /^[0-9]+$/;
+      if(inputtxt.value.match(numbers))
+      {
+      alert('Your Registration number has accepted....');
+      document.form1.text1.focus();
+      return true;
+      }
+      else
+      {
+      alert('Please input numeric characters only');
+      document.form1.text1.focus();
+      return false;
+      }
+   } 
+
+///new code
+
+   if(formValidation.validateGrid("GridDetail")){
+    GridDetailObj.addRow();
+    GridDetailObj.clearBiding();
+    document.getElementById("GridDetail").value = GridDetailObj.toArrayString();
+}else{
+    alert(formValidation.errorMssString);
+}  
+
+
+}
+
+    </script>
+</body>
+</html>
